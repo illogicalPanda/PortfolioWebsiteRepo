@@ -1,11 +1,12 @@
 ﻿body {
     color: brown;
-    Background-color: black;
+    Background-color: rgb(255, 255, 255);
 }
 .card{
     width: 420px;
-    background-color: wheat;
-    color: springgreen;
+    background-color: rgb(190, 130, 18);
+    color: rgb(77, 77, 77);
     text-align: center;
+    box-shadow: 5px 5px 5px 5px rgb(0, 0, 0);
 }
 /*this is comment*/
