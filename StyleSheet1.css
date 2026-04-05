@@ -31,5 +31,9 @@ html {
 .button:hover {
     background-color: rgb(27, 88, 15)
 }
+
+.hidden {
+    display: none;
+}
 /*this is comment*/
 /*this is comment*/

@@ -3,9 +3,10 @@
 /*this is
 multi-line comment*/
 
-const button = document.getElementById("button");
+//TO-DO:MAKE METHOD DYNAMIC WITH MULTIPLE CARDS
+const button = document.querySelector(".button");
 button.addEventListener("click", () => {
-    document.body.classList.toggle("card");
+    document.querySelector(".card").classList.toggle("hidden");
 });
 
 
