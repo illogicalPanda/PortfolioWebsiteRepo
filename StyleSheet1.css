@@ -1,12 +1,35 @@
 ﻿body {
-    color: brown;
-    Background-color: rgb(255, 255, 255);
+    background-color: rgb(91 91 91);
+    color: rgb(255, 0, 0);
+    text-align: center;
 }
 .card{
-    width: 420px;
+    width: 600px;
     background-color: rgb(190, 130, 18);
     color: rgb(77, 77, 77);
     text-align: center;
     box-shadow: 5px 5px 5px 5px rgb(0, 0, 0);
+    margin: auto;
 }
+html {
+    font-size: 12px;
+}
+
+.button {
+    background-color: rgb(55, 190, 45);
+    color: white;
+    font-size: 15px;
+    padding: 12px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100px;
+    margin: auto;
+
+}
+
+.button:hover {
+    background-color: rgb(27, 88, 15)
+}
+/*this is comment*/
 /*this is comment*/

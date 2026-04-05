@@ -1,3 +1,11 @@
-﻿//this is comment
+﻿//this is an in-line comment
+
 /*this is
-many line comment*/  asdasd
+multi-line comment*/
+
+const button = document.getElementById("button");
+button.addEventListener("click", () => {
+    document.body.classList.toggle("card");
+});
+
+
