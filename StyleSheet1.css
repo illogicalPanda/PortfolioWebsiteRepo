@@ -1,23 +1,46 @@
 ﻿body {
-    background-color: rgb(91 91 91);
-    color: rgb(255, 0, 0);
+    background-color: whitesmoke;
+    color: #1c1c1c;
     text-align: center;
 }
-.card{
-    width: 600px;
-    background-color: rgb(190, 130, 18);
-    color: rgb(77, 77, 77);
+
+h1, h2, h3, h4, h5, h6 {
+    color: #d5f2dd;
+}
+
+h1, h2 {
+    background-color: #0c4466;
+}
+
+h1 {
+    font-size: 55px;
+    margin: 10px;
+}
+h3 {
+    font-size: 30px;
+    margin: 10px;
+}
+
+img {
+    width: 400px;
+    height: auto;
+    float: left;
+    margin-right: 20px;
+    border: 5px solid #0c4466;
+}
+
+.card {
+    background-color: #0c4466;
+    color: black;
     text-align: center;
-    box-shadow: 5px 5px 5px 5px rgb(0, 0, 0);
     margin: auto;
 }
+
 html {
-    font-size: 12px;
+    font-size: 20px;
 }
 
 .button {
-    background-color: rgb(55, 190, 45);
-    color: white;
     font-size: 15px;
     padding: 12px;
     border: none;
@@ -28,12 +51,40 @@ html {
 
 }
 
-.button:hover {
-    background-color: rgb(27, 88, 15)
+.primary {
+    background-color: #dcdcdc;
+    color: black;
 }
+
+.secondary {
+    background-color: red;
+    color: white;
+}
+
+.button:hover {
+    background-color: rgb(85 11 11)
+}
+
 
 .hidden {
     display: none;
+}
+
+.container {
+    display: flex;
+    background-color: rgb(229 229 229);
+    align-self: center;
+    gap: 20px;
+    flex: 1;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 10px;
+}
+
+.row {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
 }
 /*this is comment*/
 /*this is comment*/
