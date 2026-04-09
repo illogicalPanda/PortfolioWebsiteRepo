@@ -10,6 +10,7 @@ h1, h2, h3, h4, h5, h6 {
 
 h1, h2 {
     background-color: #0c4466;
+    margin: 15px;
 }
 
 h1 {
@@ -20,10 +21,13 @@ h3 {
     font-size: 30px;
     margin: 10px;
 }
+ul {
+    margin-top: 10px;
+}
 
 img {
     width: 400px;
-    height: auto;
+    height: 400px;
     float: left;
     margin-right: 20px;
     border: 5px solid #0c4466;
@@ -43,26 +47,25 @@ html {
 .button {
     font-size: 15px;
     padding: 12px;
-    border: none;
+    border: 2px solid #0c4466;
     border-radius: 5px;
     cursor: pointer;
     width: 100px;
     margin: auto;
-
 }
 
 .primary {
-    background-color: #dcdcdc;
+    background-color: rgb(174, 174, 174);
     color: black;
 }
 
 .secondary {
-    background-color: red;
+    background-color: rgb(163, 34, 34);
     color: white;
 }
 
 .button:hover {
-    background-color: rgb(85 11 11)
+    background-color: rgb(91 91 91)
 }
 
 
@@ -79,12 +82,29 @@ html {
     padding-left: 20px;
     padding-right: 20px;
     padding-bottom: 10px;
+    font-size: 18px;
 }
 
 .row {
     display: flex;
     flex-direction: column;
     gap: 10px;
+}
+
+dialog {
+    padding: 20px;
+    text-align: center;
+    border: 2px solid #0c4466;
+    background-color: rgb(168 197 207);
+    max-width: 455px;
+    height: auto;
+    font-size: 15px;
+}
+
+.topleft {
+    margin-top: 61px;
+    margin-left: 450px;
+
 }
 /*this is comment*/
 /*this is comment*/

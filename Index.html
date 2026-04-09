@@ -10,12 +10,6 @@
 </head>
 <body>
     <!This is comment>
-
-    <div class="card hidden">
-        <h2> Found the Hidden Card.</h2>
-        <h3> Good Job.</h3>
-    </div>
-
     <div class="card title">
         <h1> Jordan Page's Portfolio</h1>
         <h3> Designer/Developer</h3>
@@ -25,53 +19,81 @@
     <!Order of Paragraphs do matter. I guess that should be obvious>
     <p> This will be a small About Me section.</p>
 
-    <!Add Links to LinkedIn, Resume, And Youtube Channel>
-    <a> https://www.youtube.com/watch?v=XfELJU1mRMg </a>
-    <!Adding href allows links to have a name and become clickable>
-    <a href=" https://www.youtube.com/watch?v=XfELJU1mRMg "> Video Link</a>
-
-    <div class="button primary">
-        First Button
-    </div>
-
     <h2>Main Projects</h2>
 
     <!TRY USING CONTAINERS FOR IMAGES + PARAGRAPHS + BUTTONS>
     <div class=" container">
         <div>
-            <img src="Images/MechSpectraLogo.png" alt=" MechSpectra" />
+            <img src="Images/MechSpectraLogo.png" alt="MechSpectra" />
         </div>
         <div class="container row">
-            <p> This is Mech Spectra.</p>
+            <h2>Mech Spectra</h2>
+            <p>Originally developed as part of a team, this project highlights my ability to work within a collaborative environment while contributing to the design and implementation of scalable, modular systems. 
+                It demonstrates experience building interactive interfaces that respond dynamically to user input  and structuring features in a way that supports maintainability and future development expansion. 
+                 The project also reflects strong problem-solving skills, attention to user experience, and the ability to iterate on designs based on feedback.</p>
             <div class="button primary">
                 Learn More
             </div>
+            <!Must Put in "class" instead of "id" when indentifying multiple elements>
+            <dialog class="dialog topleft">
+                <a href=" https://youtu.be/nsy29PHCFk0">Post Mortem Video</a>
+                <ul>
+                    <li> Tools Used: Unreal Engine, Blueprint Scripting, Perforce, Krita</li>
+                    <li> Designed and implemented several responsive UI components including dynamic player status bars, ability indicators with progressive user feedback, and a display for currency. 
+                     These interfaces respond in real time to user actions and state changes.</li>
+                    <li> Created serveral interactive menus with mouse-driven navigation with visual/audio feedback for users.</li>
+                    <li> Created 3D structured layouts to enhance engagement and usability.</li>
+                    <li> Contributed to core systems inlcuding user interaction mechanics and progression based on objectives. These systems were developed using Unreal Engine Visual Scripting (Blueprints).</li>
+                    <li> Adjusted visual feedback elements to imporve user clarity and responsiveness.</li>
+                </ul>
+                <button class="close secondary">
+                    Close
+                </button>
+            </dialog>
         </div>
-        <img src="Images/MechSpectraLogo.png" alt=" MechSpectra" />
+        <img src="Images/AdventureScreen.png" alt="Adventure" />
         <div class="container row">
             <p> This is Adventure.</p>
             <div class="button primary">
                 Learn More
-            </div>
+              </div>
+            <dialog class="dialog">
+                <p>This is a dialog box for Adventure.</p>
+                <button class="close secondary">
+                    Close
+                </button>
+            </dialog>
         </div>
     </div>
 
     <div class=" container">
         <div>
-            <img src="Images/MechSpectraLogo.png" alt=" MechSpectra" />
+            <img src="Images/ParkRangerMain.png" alt="Park Ranger" />
         </div>
         <div class="container row">
             <p> This is Park Ranger.</p>
             <div class="button primary">
                 Learn More
-            </div>
+              </div>
+            <dialog class="dialog">
+                <p>This is a dialog box for Park Ranger.</p>
+                <button class="close secondary">
+                    Close
+                </button>
+            </dialog>
         </div>
-        <img src="Images/MechSpectraLogo.png" alt=" MechSpectra" />
+        <img src="Images/TournamentalShow.png" alt="Tournamental" />
         <div class="container row">
             <p> This is Tournamental.</p>
             <div class="button primary">
                 Learn More
             </div>
+            <dialog class="dialog">
+                <p>This is a dialog box for Tournamental.</p>
+                <button class="close secondary">
+                    Close
+                </button>
+            </dialog>
         </div>
     </div>
 
