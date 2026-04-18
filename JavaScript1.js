@@ -6,7 +6,7 @@ multi-line comment*/
 // () => {} This is a Lambda which is a method without a name. Can be written in methods.
 
 //For every button, when it is clicked, find its related card in the container and toggle visibility.
-/*
+
 const button = document.querySelectorAll(".button");
 button.forEach(button => { 
  button.addEventListener("click", () => {
@@ -15,7 +15,7 @@ button.forEach(button => {
     card.classList.toggle("hidden");
  });
 });
-*/
+
 
 //For every button, when it is clicked, find its related dialog box in the container and show it. Copied from button functionality.
 const buttons = document.querySelectorAll(".button");
