@@ -35,3 +35,24 @@ closeButtons.forEach(btn => {
         dialog.close();
     })
 })
+
+const containers = document.querySelectorAll(".video-container");
+
+containers.forEach(container => {
+    const video = container.querySelector(".video");
+    const img = container.querySelector(".preview");
+
+    container.addEventListener("mouseenter", () => {
+        //Hide the image
+        img.style.display = "none";
+        video.play();
+    });
+
+    //Reset the video when not hovering
+    container.addEventListener("mouseleave", () => {
+        video.pause();
+        video.currentTime = 0;
+        //Show the image again after hovering
+        img.style.display = "block";
+    });
+});

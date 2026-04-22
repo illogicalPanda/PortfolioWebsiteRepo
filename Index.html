@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="StyleSheet1.css"/> 
     <!Include File Type When Naming Images and FileName/ if in a folder>
     <link rel="icon" href="Images/Graduation.jpg" type="image/x-icon"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
 </head>
 <body>
     <!This is comment>
@@ -17,20 +18,32 @@
 
 
     <!Order of Paragraphs do matter. I guess that should be obvious>
-    <p> This will be a small About Me section.</p>
-
+    <div class="container">
+        <!img src=""
+        <p>
+            My name is Jordan Page. I was born and raised in Mississippi, and I am the oldest of three children. I graduated from Full Sail University in 2024 with a Bachelor of Science in Game Design.
+            My favorite topics are technology, game development, game design, and video games. In my free time, I am often spending time with friends and family, teaching myself a new development-related skills, or playing video games.
+            My favorite classes from college were ones that focused around designing 3D structured environments as well as designing and implementing custom user interfaces.
+        </p>
+    </div>
+    
     <h2>Main Projects</h2>
 
     <!TRY USING CONTAINERS FOR IMAGES + PARAGRAPHS + BUTTONS>
     <div class=" container">
-        <div>
-            <img src="Images/MechSpectraLogo.png" alt="MechSpectra" />
+        <div class="video-container">
+            <img src="Images/MechSpectraLogo.png" class="preview" />
+            <video class="video" muted loop>
+                <source src="Videos/MechSpectra.mp4" type="video/mp4">
+            </video>
         </div>
         <div class="container row">
             <h2>Mech Spectra</h2>
-            <p>Originally developed as part of a team with 2 months to spend, this project highlights my ability to work within a collaborative environment while contributing to the design and implementation of scalable, modular systems. 
-                It demonstrates experience building interactive interfaces that respond dynamically to user input  and structuring features in a way that supports maintainability and future development expansion. 
-                 The project also reflects strong problem-solving skills, attention to user experience, and the ability to iterate on designs based on feedback.</p>
+            <p>
+                Originally developed as part of a team with 2 months to spend, this project highlights my ability to work within a collaborative environment while contributing to the design and implementation of scalable, modular systems.
+                It demonstrates experience building interactive interfaces that respond dynamically to user input  and structuring features in a way that supports maintainability and future development expansion.
+                The project also reflects strong problem-solving skills, attention to user experience, and the ability to iterate on designs based on feedback.
+            </p>
             <div class="button primary">
                 Learn More
             </div>
@@ -39,8 +52,10 @@
                 <a href=" https://youtu.be/nsy29PHCFk0">Post Mortem Video</a>
                 <ul>
                     <li> Tools Used: Unreal Engine, Blueprint Scripting, Perforce, Krita</li>
-                    <li> Designed and implemented several responsive UI components including dynamic player status bars, ability indicators with progressive user feedback, and a display for currency. 
-                     These interfaces respond in real time to user actions and state changes.</li>
+                    <li>
+                        Designed and implemented several responsive UI components including dynamic player status bars, ability indicators with progressive user feedback, and a display for currency.
+                        These interfaces respond in real time to user actions and state changes.
+                    </li>
                     <li> Created serveral interactive menus with mouse-driven navigation with visual/audio feedback for users.</li>
                     <li> Contributed to core systems inlcuding user interaction mechanics and progression based on objectives. These systems were developed using Unreal Engine Visual Scripting (Blueprints).</li>
                     <li> Created 3D structured layouts to enhance engagement and usability.</li>
@@ -51,17 +66,24 @@
                 </button>
             </dialog>
         </div>
-        <img src="Images/AdventureScreen.png" alt="Adventure" />
+        
+        <div class="video-container">
+            <img src="Images/AdventureScreen.png" class="preview" />
+            <video class="video" muted loop>
+                <source src="Videos/MyAdventureLevel.mp4" type="video/mp4">
+            </video>
+        </div>
         <div class="container row">
             <h2>Adventure 1</h2>
-            <p> This project was developed over two months period with a main focus on structured environment development with aspects of collaborative design while using minimal interactive elements such as objects and UI.
-                  During the first month, I planned the environment through documentaion and real-world visual references before blocking out the environment.
-                   In the second month, I refined the layouts, implemented detailed assets, and expanded the environment while integrating my work with peers, requiring consitent designs and seamless transitions.
-                    This project demonstrates skills in collabortion, planning, and the ablity to adapt one's work into a unified experience with others.
-                    </p>
+            <p>
+                This project was developed over two months period with a main focus on structured environment development with aspects of collaborative design while using minimal interactive elements such as objects and UI.
+                During the first month, I planned the environment through documentaion and real-world visual references before blocking out the environment.
+                In the second month, I refined the layouts, implemented detailed assets, and expanded the environment while integrating my work with peers, requiring consitent designs and seamless transitions.
+                This project demonstrates skills in collabortion, planning, and the ablity to adapt one's work into a unified experience with others.
+            </p>
             <div class="button primary">
                 Learn More
-              </div>
+            </div>
             <dialog class="dialog topright">
                 <a href=" https://youtu.be/LoNTcfUxtI4">Team Adventure Project Showcase</a>
                 <ul>
@@ -80,17 +102,22 @@
     </div>
 
     <div class=" container">
-        <div>
-            <img src="Images/ParkRangerMain.png" alt="Park Ranger" />
+        <div class="video-container">
+            <img src="Images/ParkRangerMain.png" class="preview" />
+            <video class="video" muted loop>
+                <source src="Videos/ParkRanger.mp4" type="video/mp4">
+            </video>
         </div>
         <div class="container row">
             <h2>Park Ranger</h2>
-            <p>Developed as a solo project, this project centers on object interaction, user-driven exploration, and objective completion similar to the Mech Spectra project.
+            <p>
+                Developed as a solo project, this project centers on object interaction, user-driven exploration, and objective completion similar to the Mech Spectra project.
                 It demonstrates my ability to manage a full development lifecycle while implementing interactive interfaces and a structured environment designed to guide player engagement.
-                 This project also contains feedback based on user performance that allows for future expandability and maintained-support while showcasaing problem-solving skills and time management.</p>
+                This project also contains feedback based on user performance that allows for future expandability and maintained-support while showcasaing problem-solving skills and time management.
+            </p>
             <div class="button primary">
                 Learn More
-              </div>
+            </div>
             <dialog class="dialog topleft">
                 <a href="=https://youtu.be/E6Chz5x7wIc">Gameplay Test Video</a>
                 <ul>
@@ -105,12 +132,19 @@
                 </button>
             </dialog>
         </div>
-        <img src="Images/TournamentalShow.png" alt="Tournamental" />
+        <div class="video-container">
+            <img src="Images/TournamentalShow.png" class="preview" />
+            <video class="video" muted loop>
+                <source src="Videos/Tournamental.mp4" type="video/mp4">
+            </video>
+        </div>        
         <div class="container row">
             <h2>Tournamental</h2>
-            <p> A small project featuring a grid-based movement system with the focus being on designing and implementing unique player mechanics that flow well within the limited movement.
-                 To ensure that all interactions and behaviors with the system and the user aligned with the constraints of the grid, thoughtful system design and logic planning were required.
-                  The project shows my ability to create adaptble mechanics, maintain consistency across interactions, and solve desing challengs within a specific framework.</p>
+            <p>
+                A small project featuring a grid-based movement system with the focus being on designing and implementing unique player mechanics that flow well within the limited movement.
+                To ensure that all interactions and behaviors with the system and the user aligned with the constraints of the grid, thoughtful system design and logic planning were required.
+                The project shows my ability to create adaptble mechanics, maintain consistency across interactions, and solve desing challengs within a specific framework.
+            </p>
             <div class="button primary">
                 Learn More
             </div>
@@ -140,22 +174,8 @@
                 This project was developed as a continuation of the previous Adventure project.
                 Unlike the first Adventure, this project was built in 3 weeks with minimal pre-production.
                 I desgined and implemented laser and mirror mechanics using lince traces to detect collisions and dynamically reflect laser beams based on mirror orientation.
-            <div class="button primary">
-                Learn More
-            </div>
-            </p>
-            <dialog class="dialog">
-                <a href="https://youtu.be/g0cpy8HYUJQ">Mechanic Showcase</a>
-                <p> This project was developed as a continuation of the previous Adventure project. 
-                     Unlike the first Adventure, this project was built in 3 weeks with minimal pre-production.
-                       The project focused on applying previously learned level design principles while also focusing on implementing custom mechanics that the user interacts with. 
-                      I designed and implemented laser and mirror mechanics using lince traces to detect collisions and dynamically reflect laser beams based on mirror orientation.
-                </p>
-            <button class="close secondary">
-                Close
-            </button>
-            </dialog>
         </div>
+        
         <div class="container row">
             <! PUT IMAGE HERE>
             <img src="Images/CubeRunner.png" class="small" alt="Cube Runner" />
@@ -165,20 +185,30 @@
                 Using Unity and C#, I implemented player functionality, a player-facing UI system, and an environment to support engagement.
                 After feedback, I refined the UI, increased obstacles in the level design, and optimized player mechanics to enhance player movement.
             </p>
-            <div class="button primary">
-                Learn More
-            </div>
-            <dialog class="dialog">
-                <p>
-                    This small project focused on developing a third-person experience centered around the objective of getting past the obstacles.
-                    Using Unity and C#, I implemented player functionality, a player-facing UI system, and an environment to support engagement.
-                    After feedback, I refined the UI, increased obstacles in the level design, and optimized player mechanics to enhance player movement.
-                </p>
-                <button class="close secondary">
-                    Close
-                </button>
-            </dialog>
         </div>
+        
+        <div class="container row">
+            <! PUT IMAGE HERE>
+            <img src="Images/Pathing.png" class="small" alt="A.I. Pathing" />
+            <h4> Basic A.I. Pathing</h4>
+            <p class="border">
+                As a precursor to Project Sneaky, I implemented AI agents that can navigated through a predefined array of target points in a specified sequence.
+                I also added collision handling between agents to ensure a smooth avoidance behavior which allows them to move around one another instead of becoming stuck on one another.
+                The goal of this project was to demonstrate custom pathing logic and control over movement systems without the use of Behaviors Trees and Blackboards.
+            </p>
+        </div>
+        
+        <div class="container row">
+            <! PUT IMAGE HERE>
+            <img src="Images/HidingAI.png" class="small" alt="Hiding AI" />
+            <h4>Hiding A.I.</h4>
+            <p class="border">
+                This AI system was developed using Unreal Engine's Behavior Trees which allowed for state-driven behavior based on conditions and timers.
+                With conditional logic and state management, the agent automatically patrols a specified area until a timed condition a "hunger" state, prompting it to navigate to a designated resource location to "eat".
+                The system also responds to user interaction. When the player approaches and establishes visibility with the agent, the AI changes to a more defensive state, seeking cover behind nearby objects.
+            </p>
+        </div>
+       
         <div class="container row">
             <! PUT IMAGE HERE>
             <img src="Images/Sneaky.png" class="small" alt="Project Sneaky" />
@@ -189,72 +219,24 @@
                 If the player is detected, the system transitions AI's state to pursue the player until the AI loses visibility.
                 The player's objective is to successfully progress through all four sections without being caught.
             </p>
-            <div class="button primary">
-                Learn More
-            </div>
-            <dialog class="dialog">
-                <p>
-                    A point-and-click stealth-basaed interactive experience featuring four seperate sections that users can navigate and pass through.
-                    The project includes state management and AI entities that patrol defined areas and respond dynamically to user presence through line-of-sight detection and chase behavior.
-                    If the player is detected, the system transitions AI states to pursue the player until the AI loses visibilty.
-                    The player's objective is to successfully progress through all four sections without being caught.
-                </p>
-                <button class="close secondary">
-                    Close
-                </button>
-            </dialog>
-        </div>
-        <div class="container row">
-            <! PUT IMAGE HERE>
-            <img src="Images/Pathing.png" class="small" alt="A.I. Pathing" />
-            <h4> Basic A.I. Pathing</h4>
-            <p class="border">
-                As a precursor to Project Sneaky, I implemented AI agents that can navigated through a predefined array of target points in a specified sequence.
-                I also added collision handling between agents to ensure a smooth avoidance behavior which allows them to move around one another instead of becoming stuck on one another.
-                The goal of this project was to demonstrate custom pathing logic and control over movement systems without the use of Behaviors Trees and Blackboards.
-            </p>
-
-            <div class="button primary">
-                Learn More
-            </div>
-            <dialog class="dialog">
-                <p>
-                    As a precursor to Project Sneaky, I implemented AI agents that can navigated through a predefined array of target points in a specified sequence.
-                    I also added collision handling between agents to ensure a smooth avoidance behavior which allows them to move around one another instead of becoming stuck on one another.
-                    The goal of this project was to demonstrate custom pathing logic and control over movement systems without the use of Behaviors Trees and Blackboards.
-                </p>
-                <button class="close secondary">
-                    Close
-                </button>
-            </dialog>
-        </div>
-        <div class="container row">
-            <! PUT IMAGE HERE>
-            <img src="Images/HidingAI.png" class="small" alt="Hiding AI" />
-            <h4>Hiding A.I.</h4>
-            <p class="border">
-                This AI system was developed using Unreal Engine's Behavior Trees which allowed for state-driven behavior based on conditions and timers.
-                With conditional logic and state management, the agent automatically patrols a specified area until a timed condition a "hunger" state, prompting it to navigate to a designated resource location to "eat".
-                The system also responds to user interaction. When the player approaches and establishes visibility with the agent, the AI changes to a more defensive state, seeking cover behind nearby objects.
-            </p>
-
-            <div class="button primary">
-                Learn More
-            </div>
-            <dialog class="dialog">
-                <p>
-                    This AI system was developed using Unreal Engine's Behavior Trees which allowed for state-driven behavior based on conditions and timers.
-                    With conditional logic and state management, the agent automatically patrols a specified area until a timed condition a "hunger" state, prompting it to navigate to a designated resource location to "eat".
-                    The system also responds to user interaction. When the player approaches and establishes visibility with the agent, the AI changes to a more defensive state, seeking cover behind nearby objects.
-                </p>
-                <button class="close secondary">
-                    Close
-                </button>
-            </dialog>
         </div>
     </div>
 
+    <footer>
+         <! target="_blank" opens a new website
+            noopener prevents the new page from controlling your page 
+            noreferrer hides where the user came from />
+        <a href="www.linkedin.com/in/jordan-w-page" target="_blank" rel="noopener noreferrer">
+            <i class="fa-brands fa-linkedin fa-2xl icon" style="color: rgb(116, 192, 252);"></i>
+         </a>
+        <a href="mailto:jordanipage21@yahoo.com" rel="noopener noreferrer">
+            <i class="fa-regular fa-envelope fa-2xl icon" style="color: rgb(177, 151, 252);"></i>         
+         </a>        
+        <a href="https://drive.google.com/drive/folders/1RfpGYJu39Y7VqRxgrgo2SICB68ZzMJpu?usp=sharing" target="_blank" rel="noopener noreferrer">
+            <i class="fa-brands fa-google-drive fa-2xl" style="color: rgb(99, 230, 190);"></i>
+         </a>
 
+    </footer>
 
     <script src="JavaScript1.js"></script>
 

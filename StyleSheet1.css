@@ -96,6 +96,7 @@ html {
     padding-right: 20px;
     padding-bottom: 10px;
     font-size: 18px;
+    align-content: center;
 }
 
 .row {
@@ -123,6 +124,39 @@ dialog {
 .topright {
     margin-top: 61px;
     margin-right: 21px;
+}
+
+.video-container {
+    position: relative;
+    width: 390px;
+    height: 380px;
+}
+
+.video,
+.preview {
+    width: 100%;
+    display: block;
+    border: 5px solid #0c4466;
+}
+
+.preview {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+video {
+    margin-top: 80px;
+}
+
+footer {
+    background-color: #0c4466;
+    color: #d5f2dd;
+    padding: 10px;
+}
+
+.icon {
+    padding-right: 20px;
 }
 /*this is comment*/
 /*this is comment*/
