@@ -151,15 +151,13 @@ dialog {
 }
 
 .preview {
-display: none;
+position: absolute;
+top: 0;
+left: 0;
 }
 
 video {
     margin-top: 80px;
-}
-.video{
-width: 100%;
-height: auto;
 }
 
 footer {
