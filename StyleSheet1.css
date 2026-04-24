@@ -158,9 +158,8 @@ video {
     margin-top: 80px;
 }
 .video{
-display: block !important;
-opacity: 1 !important;
-z-index: 10;
+width: 100%;
+height: auto;
 }
 
 footer {
