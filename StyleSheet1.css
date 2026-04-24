@@ -157,6 +157,11 @@ display: none;
 video {
     margin-top: 80px;
 }
+.video{
+display: block !important;
+opacity: 1 !important;
+z-index: 10;
+}
 
 footer {
     background-color: #0c4466;
